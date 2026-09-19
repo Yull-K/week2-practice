@@ -1,0 +1,20 @@
+[project]
+name = "week2-practice"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Yull-K", email = "yrdy26@snu.ac.kr" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.141.1",
+    "pyjwt>=2.14.0",
+]
+
+[project.scripts]
+week2-practice = "week2_practice:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
